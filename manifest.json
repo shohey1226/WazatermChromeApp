@@ -1,0 +1,13 @@
+{
+  "name": "Devany",
+  "description": "Devany Chrome App.",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [ "webview", "browser", "https://devany.herokuapp.com/", "https://*.devany.net/", "clipboardRead", "clipboardWrite" ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "devany-16.png", "128": "devany-128.png" }
+}
