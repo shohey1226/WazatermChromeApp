@@ -1,13 +1,13 @@
 {
-  "name": "Devany",
-  "description": "Devany Chrome App.",
+  "name": "Wazaterm",
+  "description": "Wazaterm Chrome App.",
   "version": "0.1",
   "manifest_version": 2,
-  "permissions": [ "webview", "browser", "https://devany.herokuapp.com/", "https://*.devany.net/", "clipboardRead", "clipboardWrite" ],
+  "permissions": [ "webview", "browser", "https://wazaterm.com", "https://wazaterm.herokuapp.com/", "https://*.wazaterm.com/", "clipboardRead", "clipboardWrite" ],
   "app": {
     "background": {
       "scripts": ["background.js"]
     }
   },
-  "icons": { "16": "devany-16.png", "128": "devany-128.png" }
+  "icons": { "16": "wazaterm-16.png", "128": "wazaterm-128.png" }
 }
